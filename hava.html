@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Weather</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        {{msg}}
+    </div>
+    <!--<script src="hava.js"></script>-->
+    <script>
+        const app= Vue.createApp ({
+            data (){
+                return {
+                    msg: "hello world and my friends"
+                }
+            }
+        })
+        app.mount ("#app")
+    </script>
+</body>
+</html>
